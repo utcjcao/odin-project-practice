@@ -1,0 +1,27 @@
+/* Which property would you use to make an element transparent? */
+
+div {
+    opacity:0
+}
+
+/* Which property would you use to make a background image tile? */
+div {
+    background: 0;
+    /* put an image here */
+}
+/* Which property would you use to add scrollbars to an element? */
+div {
+    overflow: scroll;
+}
+/* Which property would you use to add a shadow behind an element? */
+div {
+    box-shadow:1;
+}
+/* Which property would you use to create rounded corners on an element? */
+div {
+    border: 1px;
+}
+/* How would you use border-radius to make a circular element? */
+div {
+    border: 50%;
+}
