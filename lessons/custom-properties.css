@@ -1,0 +1,26 @@
+/* How would you declare a custom property with a name of text-color? */
+
+:root {
+    --text-color: red;
+    
+}
+/* How would you access a custom property with a name of background-color? */
+:root {
+    background-color: var(--background-color)
+    
+}
+/* Where would you declare a custom property to have its scope be global and accessible by all other selectors? */
+:root {
+
+}
+/* Where would you declare a custom property so that a user’s theme setting from their OS or browser was taken into account? */
+button {
+    /* default color */
+    background-color: white;
+}
+@media (prefers-color-scheme: dark) {
+    button {
+        /* color if user has darkmode on */
+        background-color: black;
+    }
+}

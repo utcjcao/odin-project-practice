@@ -1,0 +1,7 @@
+What are CSS frameworks?
+
+css packages that allow you to quickly make websites by abstracting the details
+
+What are CSS preprocessors?
+
+languages that make writing css easier by removing repetition.

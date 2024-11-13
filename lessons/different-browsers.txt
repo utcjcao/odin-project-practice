@@ -1,0 +1,11 @@
+What is the most used browser currently?
+
+chrome
+
+What was the original name of the first web browser?
+
+world wide web
+
+How are mobile browsers different on Apple mobile operating systems from Android?
+
+based on the apple webkit rather than their native browsers,

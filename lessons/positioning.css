@@ -1,0 +1,29 @@
+/* What is the difference between static and relative positioning? 
+
+static positioning basically means that all elems will appear in the order they appear in the html
+
+relative meansthat you can change its positioning from top, bottom, left right
+
+*/
+
+div {
+    position: relative;
+    position: static;
+}
+
+/* What is absolute positioning useful for? 
+
+mainly used for elements that are independent of other elements. think popups or notifications
+*/
+
+div {
+    position: absolute;
+}
+
+/* What is the difference between fixed and sticky positioning? 
+
+fixed is that the element will always follow the user at a specified location (so headers, chatbots, etc)
+
+sticky is that the element will follow the user at the specified location. think section headings in shopping websites
+
+*/

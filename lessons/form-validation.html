@@ -1,0 +1,31 @@
+What does the required validation do?
+
+a user can't submit unless the field is filled in
+<form>
+    <!-- password would be required here -->
+    <input type="password" name="password" id="password" placeholder="password" required/>
+</form>
+
+What validations can you use for checking text length?
+<form>
+    <textarea minlength="20" maxlength="40"></textarea>
+</form>
+How can you validate the minimum and maximum of numeric inputs?
+<form>
+    <input type="number" min="2" max="4"></textarea>
+</form>
+What can you use the pattern validation for?
+<!-- check if the input matches a certain requirement, for eg zip codes or emails -->
+<form>
+    <input type="text" placeholder="zip" name="zipcode" pattern="(\d{5}([\-]\d{4})?)"></input>
+</form>
+What pseudo CSS selectors are available for styling valid and invalid inputs?
+
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}

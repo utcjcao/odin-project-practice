@@ -1,0 +1,49 @@
+Explain what the form element is for and what two attributes it should always include.
+
+form element is for allowing users to input info. 
+should contain:
+a) action: where to send info after submitting
+b) method: what kind of http request you use(GET, POST)
+<form action="URL" method="post">
+
+</form>
+
+Explain what form controls are at a high level.
+
+different elements in form such as inputs, labels, etc
+
+<form action="URL" method="post">
+    <label for="first-name">first name</label>
+    <input type="text" placeholder="first name" id="first-name" name="first-name"/>
+</form>
+
+What is the name attribute for?
+ when you send the data, you send it as a json. the name is the variable name when you send it
+
+What are the three most common form controls you can use for allowing users to select predefined options?
+
+<select>
+    <option value="mercedes">mercedes</option>
+    <option value="toyota">toyota</option>
+    <!-- this is a dropdown menu -->
+</select>
+<input type="radio"/> 
+<!-- this is a radio button -->
+ <input type="checkbox"/>
+ <!-- this is a checkbox item -->
+
+What are the three types of buttons in HTML?
+
+<button type="button"></button>
+<!-- generic -->
+<button type="reset"></button>
+<!-- reset form button -->
+<button type="submit"></button>
+<!-- submit button -->
+
+What are the two most challenging aspects of styling forms?
+
+overriding default settings in most browsers means that we have to redo 
+
+1. checkboxes and radio buttons
+2. larger inputs, like calendars, date pickers.

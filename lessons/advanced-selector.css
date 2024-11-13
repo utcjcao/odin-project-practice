@@ -1,0 +1,74 @@
+/* What is the difference between the child combinator and the descendant combinator? */
+
+main div {
+    /* this selects ALL divs in main */
+}
+
+main > div {
+    /* this selects only the children, not the granchildren */
+}
+
+
+main > div > div {
+    /* this selects only the grandchildren*/
+}
+
+/* Only the next child in the group */
+.group1 + div {
+    /* Our cool CSS */
+  }
+  
+/* Only the next next child in the group */
+.group1 + div + div {
+/* More cool CSS */
+}
+
+/* all siblings */
+.group1 ~ div {
+    /* Our cool CSS */
+  }
+
+/* How does the syntax of pseudo-classes and pseudo-elements differ? */
+
+button:hover {
+/* this is psuedo classes, which are special html elements like hover, link, focus, etc  */
+}
+button::first-letter {
+    /* this is psuedo element, which are extra details like ::before, ::after, etc  */
+}
+/* Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?
+pseudo classes do, pseudo elements dont */
+
+/* Name two ways you could select every second child of an element, starting with the first. */
+
+.group1 + div {
+/* selects the child after group1 */
+}
+
+.group1:nth-child(2) {
+    /* selects 2nd child in group1 */
+}
+
+/* What is the difference between div:first-child and div:last-child? What will each select? */
+
+/* selects either first or last child in div */
+
+/* What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on? */
+
+button:hover {
+
+}
+button:focus {
+
+}
+
+/* How could you select all input elements with a type of text? */
+
+input[type="text"] {
+}
+
+/* How could you select all classes that begin with thunder? */
+
+[class^="thunder"] {
+
+}

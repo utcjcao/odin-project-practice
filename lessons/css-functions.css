@@ -1,0 +1,26 @@
+/* What are the four CSS math functions we covered above?
+max, min, calc, clamp
+
+we aren't allowed to write our own functions, only the ones premade
+
+max: set a max size for smth
+min: min size
+calc: allows calculations between different units
+clamp: set a min, max and ideal size
+
+*/
+
+div {
+    font-size: max(10px, 50px);
+    font-weight: calc(5em - 100px);
+    border-radius: clamp(1px, 2px, 3px);
+}
+
+/* How do we use CSS math functions in our CSS? 
+can be used to set a max, min size for elements, fonts, etc
+
+*/
+/* How can CSS functions help make websites and applications more responsive?
+
+make sure UI elements fit appropriately based on screen size
+*/
