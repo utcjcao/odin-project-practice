@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.odin-container {
+    background-color: black;
+    opacity: 0.5;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    padding: auto;
+    border-radius: 5%;
+    box-shadow: 1px;
+    padding: 10px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.text-container {
+    display: inline-block;
+    background-color: rgb(238, 238, 238);
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.text-container > * {
+    margin: 30px 0;
+}
+
+.form-container {
+    background-color: white;
+    border: black 1px solid;
+    box-shadow: 5%;
+    
+}
+
+.form-container > * {
+    margin: 10px;
+}
+
+label {
+    font-size: small;
+}
+
+input {
+    border-radius: 5px;
+}
+
+.title-container {
+    font-weight: bold;
+}
