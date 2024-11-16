@@ -1,12 +1,10 @@
 .main {
-    display: flex;
-    flex-direction: row;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.odin-container {
-    background-color: black;
-    opacity: 0.5;
-}
+
+* {
+    outline: 2px solid red;
+  }
 
 button {
     background-color: #596D48;
@@ -16,48 +14,21 @@ button {
     box-shadow: grey 2px 1px 3px;
     border: 0px;
     font-weight: bold;
-    margin: 10px;
 }
 
-.text-container {
+.form-container {
+    box-shadow: rgb(191, 191, 191) 1px 4px 1px;
     display: inline-block;
-    background-color: rgb(250, 250, 250);
-    align-items: flex-end;
 }
 
-.form-container {
-    padding-left: 0px;
+h1 {
+
 }
 
-.left {
-    display: inline;
-}
+/* input, label {
+    display: block;
+} */
 
-.text-container * {
-    padding-left: 20px;
-    /* height: 100%; */
-}
-
-.form-container {
-    background-color: white;
-    box-shadow: grey 2px 1px 3px;
-    
-}
-
-.form-container > * {
-    margin: 10px;
-}
-
-label {
-    font-size: small;
-}
-
-input {
-    border-radius: 5px;
-}
-
-.title-container > * {
-    font-weight: bold;
-    padding-left: 20px;
-    /* margin: 50px; */
-}
+/* .input-container {
+    display: block;
+} */
