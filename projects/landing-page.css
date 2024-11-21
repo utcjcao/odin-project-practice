@@ -12,7 +12,10 @@ body {
     justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 20px;
+}
+
+.hero, .header, .info-container, .quote, .sign-up {
+    padding: 40px 160px;
 }
 
 .logo {
@@ -40,6 +43,7 @@ ul {
 ul, .hero-subtext {
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: lighter;
 }
 
 .hero-button {
@@ -54,19 +58,117 @@ ul, .hero-subtext {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding: 40px;
+    padding-bottom: 80px;
 }
 
 .hero-image {
-    max-width: 50%;
-    height: auto;
+    flex: 1;
+    height: 250px;
+    object-fit: cover;
 }
 .hero-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex: 1;
 }
 
 .hero, .footer, .header {
     background-color: #1f2937;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.info-image {
+    height: 150px;
+    width: 150px;
+    border: #3882f6 4px solid;
+    border-radius: 10%;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+    /* color: #f9faf8; */
+
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 120px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: 1f2937;
+}
+
+.quote-subtext {
+    display: flex;
+    justify-content: end;
+    font-weight: 800;
+}
+
+.sign-up-container {
+    background-color: #3882f6;
+    color:#f9faf8;
+    margin: 80px 160px;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+}
+.sign-up-button {
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.sign-up-header {
+    font-weight: bold;
+}
+.sign-up-subtext {
+    font-weight: lighter;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color:#e5e7eb;
+    font-weight: lighter;
+    padding: 40px;
 }
