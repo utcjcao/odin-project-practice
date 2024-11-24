@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+}
+.grid-container {
+    /* grid-template-columns: repeat(3, 150px);  */
+    grid-template-rows: 1fr, 1fr, 1fr; 
+    /* kind of like % or flex */
+    /* when you want to set a minimum size, use
+    min(200px, 50%). this ensures that either a) 
+    you take up half the space, and b) it doesn't shrink beyond 200px
+    */
+    /* minmax(150,200) can only be used in grid contexts, can set min and max size for column/rows */
+    /* width: clamp(500px, 80%, 1000px); can be used to set a min, ideal, and max width */
+  }
