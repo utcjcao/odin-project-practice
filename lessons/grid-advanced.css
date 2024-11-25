@@ -11,4 +11,6 @@
     */
     /* minmax(150,200) can only be used in grid contexts, can set min and max size for column/rows */
     /* width: clamp(500px, 80%, 1000px); can be used to set a min, ideal, and max width */
+    /* auto-fit and and auto-fill: two specifications that can be used to autofit and autofill
+    grid-template-columns: repeat(auto-fill, 300px) has x number of cols with 300px */
   }
