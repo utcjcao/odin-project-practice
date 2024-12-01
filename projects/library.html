@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="library.js">
+    </script>
+</head>
+<body>
+    <input type="text" id="author" placeholder="author">
+    <input type="text" id="title" placeholder="title">
+    <button onclick="drawBooks()">draw books button</button>
+    <button onclick="addBookToLibrary(document.getElementById('title').value, document.getElementById('author').value)">add book button</button>
+    <div id="library">
+
+    </div>
+</body>
+</html>
