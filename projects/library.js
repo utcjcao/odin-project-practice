@@ -26,6 +26,7 @@ class Library {
     libraryDiv.innerHTML = "";
     this.library.forEach((book) => {
       const bookDiv = document.createElement("div");
+      bookDiv.classList.add("book-container");
       const titleSpan = document.createElement("span");
       titleSpan.textContent = "title: " + book.title;
       const authorSpan = document.createElement("span");
