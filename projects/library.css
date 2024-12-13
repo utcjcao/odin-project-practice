@@ -1,16 +1,22 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
     display: grid;
-    gap: 10px;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 10fr;
     padding: 0;
     margin: 0;
+    overflow: none;
 }
 
 .header {
     border: 1px grey solid;
     padding: 10px;
-    max-height: fit-content;
+    align-content: center;
+}
+
+.header > button {
+    width: 60px;
 }
 
 input, button {
@@ -21,14 +27,23 @@ input, button {
 
 #library {
     display: grid;   
-    gap: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 12px;
+    padding: 12px;
+    overflow: none;
 }
 
 .book-container {
-    background-color: aqua;
-    border: 1px black solid;
+    border: 1px grey solid;
     border-radius: 5px;
-    height: 50px;
-    width: 100px;
-   
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 6fr;
+    padding: 10px;
+}
+
+.book-container > button {
+    display: grid;
+    justify-self: end;
+    align-self: end;
 }
